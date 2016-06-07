@@ -1,0 +1,54 @@
+/*
+* Color as in color theory
+* primary		->		60%
+* secondary		->		20%
+* tertiary		->		10%
+* accent-1		->		 5%
+* accent-2		->		 5%
+*/
+
+.color-primary			{ color: #303030; }
+.color-secondary		{ color: #999999; }
+.color-tertiary			{ color: #DDDDDD; }
+.color-accent-1			{ color: #E87D2B; }
+/*.color-accent-2			{ color: #555; }*/
+
+.bg-color-primary		{ background-color: #303030; }
+.bg-color-secondary		{ background-color: #999999; }
+.bg-color-tertiary		{ background-color: #DDDDDD; }
+.bg-color-accent-1		{ background-color: #E87D2B; }
+/*.bg-color-accent-2		{ color: #555; }*/
+
+.theme-primary { 
+	background-color: #303030;
+	color: #DDDDDD;
+}
+.theme.secondary {
+	background-color: #999999;
+	color: #DDDDDD;
+}
+.theme-tetiary { 
+	background-color: #DDDDDD;
+	color: #303030;
+}
+.theme-accent-1 {
+	background-color: #E87D2B;
+	color: #DDDDDD;
+}
+/*.theme-accent-2 {
+	background-color: #E87D2B;
+	color: #DDDDDD;
+}*/
+
+button {
+	/* Accent 1 color */
+	color: #E87D2B;
+}
+
+/*
+* General colors
+*/
+.destructive { background-color: #ff4444; }
+.text-destructive { color: #ff4444; }
+.friendly { background-color: #44ff44; }
+.text-friendly { color: #44ff44; }
